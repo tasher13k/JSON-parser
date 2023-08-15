@@ -1,0 +1,3 @@
+/home/egor/Projects/C++/JSON-parser/cmake-build-debug/CMakeFiles/JSON_parser.dir
+/home/egor/Projects/C++/JSON-parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/egor/Projects/C++/JSON-parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
