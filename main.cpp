@@ -1,7 +1,5 @@
 //use camelCase
-#include <iostream>
 #include <fstream>
-#include "json.hpp"
 #include "JSON parser class.hpp"
 
 using ifstream = std::ifstream;

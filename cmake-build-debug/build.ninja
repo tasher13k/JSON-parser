@@ -55,6 +55,12 @@ build CMakeFiles/JSON_parser.dir/main.cpp.o: CXX_COMPILER__JSON_parser_unscanned
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
   OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
 
+build CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o: CXX_COMPILER__JSON_parser_unscanned_Debug /home/egor/Projects/C++/JSON-parser/JSON$ parser$ class.cpp || cmake_object_order_depends_target_JSON_parser
+  DEP_FILE = CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/JSON_parser.dir
+  OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target JSON_parser
@@ -63,7 +69,7 @@ build CMakeFiles/JSON_parser.dir/main.cpp.o: CXX_COMPILER__JSON_parser_unscanned
 #############################################
 # Link the executable JSON_parser
 
-build JSON_parser: CXX_EXECUTABLE_LINKER__JSON_parser_Debug CMakeFiles/JSON_parser.dir/main.cpp.o
+build JSON_parser: CXX_EXECUTABLE_LINKER__JSON_parser_Debug CMakeFiles/JSON_parser.dir/main.cpp.o CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
   POST_BUILD = :
