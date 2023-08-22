@@ -1,1 +1,1 @@
-[["make_variable"], ["give_value_to_variable", "sh"], ["make_mark","match", 22]]
+[["make variable", "var 1"], ["give value to variable", 2, "var 1"], ["make mark","label 1"], ["give value to variable", 0, "var 1"], ["follow mark if", "var 1", "label 1"]]

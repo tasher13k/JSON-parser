@@ -51,13 +51,13 @@ build cmake_object_order_depends_target_JSON_parser: phony || CMakeFiles/JSON_pa
 
 build CMakeFiles/JSON_parser.dir/main.cpp.o: CXX_COMPILER__JSON_parser_unscanned_Debug /home/egor/Projects/C++/JSON-parser/main.cpp || cmake_object_order_depends_target_JSON_parser
   DEP_FILE = CMakeFiles/JSON_parser.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
   OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
 
 build CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o: CXX_COMPILER__JSON_parser_unscanned_Debug /home/egor/Projects/C++/JSON-parser/JSON$ parser$ class.cpp || cmake_object_order_depends_target_JSON_parser
   DEP_FILE = CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o.d
-  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
   OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
 
