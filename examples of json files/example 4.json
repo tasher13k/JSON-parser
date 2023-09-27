@@ -1,7 +1,7 @@
 [
 ["make variable", "var_1"],
 ["give value to variable", "4", "var_1"],
-["make mark","label 1"],
+["make mark","label_1"],
 ["give value to variable", "var_1 - 2", "var_1"],
-["follow mark if", "var_1", "label 1"]
+["follow mark if", "var_1", "label_1"]
 ]

@@ -26,8 +26,10 @@ iter_on_const_json parser::make_variable(ref_on_iter_on_const_json make_var_comm
 iter_on_const_json parser::give_value_to_variable(ref_on_iter_on_const_json give_val_command_iter) {
     std::cout << "give val command, finding " << (*give_val_command_iter)[2] << " and value will be "
               << (*give_val_command_iter)[1] << std::endl;
+
     map_for_vars[(*give_val_command_iter)[2]] = calculator::calculate(
-            (*give_val_command_iter)[1].get<string>().c_str(), map_for_vars);
+            (*give_val_command_iter)[1].get<string>().c_str(), map_for_vars).asInt();
+
     std::cout << (*give_val_command_iter)[2] << " new value is = "
               << map_for_vars.find((*give_val_command_iter)[2])->str() << std::endl;
     return give_val_command_iter;

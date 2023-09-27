@@ -1,0 +1,17 @@
+[
+["make variable", "var_1"],
+["make variable", "var_2"],
+["make variable", "var_3"],
+["make variable", "var_4"],
+["make variable", "var_5"],
+["give value to variable", "3", "var_1"],
+["give value to variable", "var_1 + 1", "var_2"],
+["give value to variable", "var_1*2 + 3 - var_2", "var_3"],
+["give value to variable", "var_1 <= var_2", "var_4"],
+["give value to variable", "var_2 == var_3", "var_5"],
+["give value to variable", "var_4 != var_5", "var_1"],
+["give value to variable", "var_4 > var_5", "var_2"],
+["give value to variable", "(var_1 + 10) % 3", "var_4"],
+["make variable", "var_del"],
+["give value to variable", "10 / 3", "var_del"]
+]

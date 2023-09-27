@@ -1,1 +1,6 @@
-["parent", [0, "sh"], "easy"]
+[
+["make variable", "first_var"],
+["make variable", "second_var"],
+["give value to variable", "7", "first_var"],
+["give value to variable", "10", "second_var"]
+]
