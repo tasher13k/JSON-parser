@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(JSON_parser main.cpp
         "JSON parser class.cpp"
-        "string parser in expression.cpp"
 )
 
 add_library(cparse_lib_core STATIC IMPORTED)
