@@ -61,12 +61,6 @@ build CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o: CXX_COMPILER__JSON_par
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
   OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
 
-build CMakeFiles/JSON_parser.dir/string_parser_in_expression.cpp.o: CXX_COMPILER__JSON_parser_unscanned_Debug /home/egor/Projects/C++/JSON-parser/string$ parser$ in$ expression.cpp || cmake_object_order_depends_target_JSON_parser
-  DEP_FILE = CMakeFiles/JSON_parser.dir/string_parser_in_expression.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/JSON_parser.dir
-  OBJECT_FILE_DIR = CMakeFiles/JSON_parser.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target JSON_parser
@@ -75,7 +69,7 @@ build CMakeFiles/JSON_parser.dir/string_parser_in_expression.cpp.o: CXX_COMPILER
 #############################################
 # Link the executable JSON_parser
 
-build JSON_parser: CXX_EXECUTABLE_LINKER__JSON_parser_Debug CMakeFiles/JSON_parser.dir/main.cpp.o CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o CMakeFiles/JSON_parser.dir/string_parser_in_expression.cpp.o | /home/egor/Projects/C++/JSON-parser/cparse/core-shunting-yard.o /home/egor/Projects/C++/JSON-parser/cparse/builtin-features.o
+build JSON_parser: CXX_EXECUTABLE_LINKER__JSON_parser_Debug CMakeFiles/JSON_parser.dir/main.cpp.o CMakeFiles/JSON_parser.dir/JSON_parser_class.cpp.o | /home/egor/Projects/C++/JSON-parser/cparse/core-shunting-yard.o /home/egor/Projects/C++/JSON-parser/cparse/builtin-features.o
   FLAGS = -g
   LINK_LIBRARIES = /home/egor/Projects/C++/JSON-parser/cparse/core-shunting-yard.o  /home/egor/Projects/C++/JSON-parser/cparse/builtin-features.o
   OBJECT_DIR = CMakeFiles/JSON_parser.dir
