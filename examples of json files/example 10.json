@@ -1,0 +1,7 @@
+[
+["make variable", "1],
+["make variable", "var_2"],
+["give value to variable", "-10", "1"],
+["make mark","label_1"],
+["give value to variable", "1 + 2", "var_2"]
+]

@@ -1,5 +1,5 @@
 [
 ["make variable", "var_1"],
 ["give value to variable", "4", "var_1"],
-["give value to variable", "var_1 - 2", "var_1"],
+["give value to variable", "var_1 - 2", "var_1"]
 ]

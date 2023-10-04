@@ -1,0 +1,10 @@
+[
+["make variable", "result"],
+["make variable", "factorial"],
+["give value to variable", "4", "factorial"],
+["give value to variable", "1", "result"],
+["make mark","loop_1"],
+["give value to variable", "result * factorial", "result"],
+["give value to variable", "factorial - 1", "factorial"],
+["follow mark if", "factorial", "loop_1"]
+]

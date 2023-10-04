@@ -1,0 +1,10 @@
+[
+["make variable", "var_1"],
+["give value to variable", "4", "var_1"],
+["make mark","label_1"],
+["follow mark if", "var_1", "label_2"],
+["give value to variable", "var_1 - 2", "var_1"],
+["follow mark if", "var_1", "label_1"],
+["make mark","label_2"],
+["give value to variable", "12", "var_1"]
+]

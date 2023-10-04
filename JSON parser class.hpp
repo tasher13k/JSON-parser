@@ -23,11 +23,11 @@ struct parser {
     static void iterating_over_commands(json const &list_of_commands);
 
 private:
+    static void determine_all_marks(json const &list_of_commands);
+
     static iter_on_const_json make_variable(ref_on_iter_on_const_json);
 
     static iter_on_const_json give_value_to_variable(ref_on_iter_on_const_json);
-
-    static iter_on_const_json make_mark(ref_on_iter_on_const_json);
 
     static iter_on_const_json follow_mark_if(ref_on_iter_on_const_json);
 
